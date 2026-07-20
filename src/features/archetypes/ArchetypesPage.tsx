@@ -1,0 +1,3 @@
+import { AppHeader,PersonaCard } from '../../design-system/components'; import { ARCHETYPES } from '../../domain/archetypes'; import type { StarDomain } from '../../domain/types'; import './ArchetypesPage.css';
+const domains:StarDomain[]=['破局星域','定盘星域','造浪星域','稳场星域'];
+export function ArchetypesPage(){return <div className="page-shell"><AppHeader/><main className="content-width archetypes"><div className="utility">SIXTEEN ARCHETYPES</div><h1>十六张本命人格牌</h1><p className="reading-width">四个字母描述判断根源、变化策略、信息认知与影响方式。每种组合都有自己的正位力量与逆位之影。</p>{domains.map(domain=><section key={domain}><h2>{domain}</h2><div className="archetype-grid">{ARCHETYPES.filter(a=>a.domain===domain).map(a=><PersonaCard key={a.code} {...a}/>)}</div></section>)}</main></div>}

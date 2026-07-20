@@ -1,0 +1,1 @@
+import type { Archetype } from '../../domain/types'; export function ShareCard({a}:{a:Archetype}){return <aside className="share-card" aria-label="本命牌分享卡"><div className="utility">{a.code}</div><div className="share-core">{a.core}</div><h2>{a.title}</h2><p>{a.verse}</p><span>{a.mapping} · {a.domain}</span></aside>}

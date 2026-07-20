@@ -1,0 +1,9 @@
+:root {
+  --z-bg: #0b0b10; --z-on-bg: #f2f0ea; --z-primary: #c5a66a; --z-secondary: #58466f;
+  --z-danger: #a94f43; --z-success: #557d70; --z-surface: #17161c; --z-outline: #393640;
+  --z-muted: #aaa6ad; --z-display: "Noto Serif SC", "Songti SC", serif;
+  --z-body: "Noto Sans SC", "Microsoft YaHei", sans-serif; --z-code: "IBM Plex Mono", Consolas, monospace;
+  --z-space-1: 4px; --z-space-2: 8px; --z-space-3: 12px; --z-space-4: 16px;
+  --z-space-6: 24px; --z-space-8: 32px; --z-space-12: 48px; --z-space-16: 64px;
+  --z-fast: 160ms; --z-route: 280ms; --z-focus: 0 0 0 3px color-mix(in srgb, var(--z-primary) 42%, transparent);
+}

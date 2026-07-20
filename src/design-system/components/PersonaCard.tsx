@@ -1,0 +1,1 @@
+export function PersonaCard({code,title,core,domain}:{code:string;title:string;core:string;domain:string}) { return <article className="persona-card"><div><div className="utility">{code}</div><h2>{title}</h2><div className="persona-core">命核 · {core}</div></div><div className="persona-domain">{domain}</div></article>; }

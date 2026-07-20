@@ -1,0 +1,1 @@
+export function Progress({ value, max }: { value:number; max:number }) { const percent=Math.min(100,Math.max(0,value/max*100)); return <div role="progressbar" aria-valuemin={0} aria-valuemax={max} aria-valuenow={value} className="progress-track"><div className="progress-value" style={{width:`${percent}%`}} /></div>; }

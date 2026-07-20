@@ -1,0 +1,2 @@
+import { describe,expect,it } from 'vitest'; import { assessmentReducer,initialState } from './assessment-state';
+describe('assessment state',()=>{it('records answers and navigates without exceeding bounds',()=>{let state=initialState('quick');state=assessmentReducer(state,{type:'answer',questionId:'ar-1',value:5});state=assessmentReducer(state,{type:'next',total:24});expect(state.answers['ar-1']).toBe(5);expect(state.currentIndex).toBe(1);state=assessmentReducer(state,{type:'previous'});expect(state.currentIndex).toBe(0);});});

@@ -1,0 +1,1 @@
+export function AxisMeter({label,value}:{label:string;value:number}) { return <div className="axis-row"><span>{label}</span><strong>{value}%</strong><div className="axis-track"><div className="axis-value" style={{width:`${value}%`}} /></div></div>; }
