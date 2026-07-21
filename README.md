@@ -18,9 +18,9 @@
 
 | 产品 | 适合什么需求 | 访问 |
 | --- | --- | --- |
-| **Ziwei Chart** | 想准确排盘、浏览十二宫、流年、合盘和长期趋势。 | [在线体验](https://zwknows.vercel.app/) · [GitHub](https://github.com/ruijayfeng/ziwei) |
-| **Ziwei Chat** | 已有命盘，想围绕事业、关系、财富或近况继续追问。 | [在线体验](https://ziweichat.vercel.app/) · [GitHub](https://github.com/ruijayfeng/ziwei_chat) |
-| **ZATI** `当前产品` | 不想先填写出生信息，想通过行为选择探索人格原型。 | [GitHub](https://github.com/ruijayfeng/ZATI) |
+| **Ziwei Chart** | 想准确排盘、浏览十二宫、流年、合盘和长期趋势。 | [在线体验](https://zwknows.vercel.app/) · [GitHub](https://github.com/ziweiknows/ziwei-chart) |
+| **Ziwei Chat** | 已有命盘，想围绕事业、关系、财富或近况继续追问。 | [在线体验](https://ziweichat.vercel.app/) · [GitHub](https://github.com/ziweiknows/ziwei-chat) |
+| **ZATI** `当前产品` | 不想先填写出生信息，想通过行为选择探索人格原型。 | [GitHub](https://github.com/ziweiknows/zati) |
 
 如果你想进一步从命盘理解自己的特质，可以探索 [Ziwei Chart](https://zwknows.vercel.app/)；如果你已经有命盘并想讨论一个现实问题，可以使用 [Ziwei Chat](https://ziweichat.vercel.app/)。它们是互补选择，不是完成 ZATI 的必要前置或后续步骤。
 
@@ -74,7 +74,7 @@ ZATI 不替你算命，也不把人格变成诊断、能力排名或命运结论
 
 ### ZATI 与 Ziwei Chart、Ziwei Chat 的关系是什么？
 
-三者是平级产品。ZATI 从行为选择观察人格倾向；[Ziwei Chart](https://github.com/ruijayfeng/ziwei) 用于浏览紫微命盘；[Ziwei Chat](https://github.com/ruijayfeng/ziwei_chat) 用于围绕命盘事实进行对话。它们当前不共享结果或用户数据。
+三者是平级产品。ZATI 从行为选择观察人格倾向；[Ziwei Chart](https://github.com/ziweiknows/ziwei-chart) 用于浏览紫微命盘；[Ziwei Chat](https://github.com/ziweiknows/ziwei-chat) 用于围绕命盘事实进行对话。它们当前不共享结果或用户数据。
 
 ## 设计立场
 
@@ -104,8 +104,8 @@ ZATI 的视觉系统“曜序”建立在深色数字工具的秩序感之上：
 环境要求：Node.js 20+、pnpm 9+。
 
 ```bash
-git clone https://github.com/ruijayfeng/ZATI.git
-cd ZATI
+git clone https://github.com/ziweiknows/zati.git
+cd zati
 pnpm install
 pnpm dev
 ```
@@ -141,4 +141,4 @@ MVP 主流程已完成：首页、快速/标准测试、人格揭晓、结果报
 
 ---
 
-<p align="center">如果 ZATI 对你有帮助，欢迎关注项目，也欢迎探索紫微知道的 <a href="https://github.com/ruijayfeng/ziwei">Ziwei Chart</a> 与 <a href="https://github.com/ruijayfeng/ziwei_chat">Ziwei Chat</a>。</p>
+<p align="center">如果 ZATI 对你有帮助，欢迎关注项目，也欢迎探索紫微知道的 <a href="https://github.com/ziweiknows/ziwei-chart">Ziwei Chart</a> 与 <a href="https://github.com/ziweiknows/ziwei-chat">Ziwei Chat</a>。</p>
