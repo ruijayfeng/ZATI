@@ -16,6 +16,7 @@ vite.config.ts - Vite 与 Vitest 配置
 playwright.config.ts - 桌面和移动浏览器验证配置
 PRODUCT.md - 用户、产品边界、品牌人格和设计原则
 DESIGN.md - 曜序视觉令牌、组件、布局和动效摘要
+LICENSE - Apache License 2.0 开源许可证
 .impeccable/live/config.json - Vite 单页应用的可视化迭代入口配置
 </config>
 
