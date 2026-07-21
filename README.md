@@ -6,7 +6,7 @@
 
 > 选择决定类型，文化原型负责表达。
 
-<p><a href="#开始使用"><strong>本地开始体验 ZATI</strong></a> · <a href="#紫微知道产品生态">认识紫微知道产品生态</a></p>
+<p><a href="https://zati-kappa.vercel.app/"><strong>在线体验 ZATI</strong></a> · <a href="#开始使用">本地运行</a> · <a href="#紫微知道产品生态">认识紫微知道产品生态</a></p>
 
 <!-- Future Zhiwei mascot variation for ZATI is intentionally left blank. -->
 
@@ -20,7 +20,7 @@
 | --- | --- | --- |
 | **Ziwei Chart** | 想准确排盘、浏览十二宫、流年、合盘和长期趋势。 | [在线体验](https://zwknows.vercel.app/) · [GitHub](https://github.com/ziweiknows/ziwei-chart) |
 | **Ziwei Chat** | 已有命盘，想围绕事业、关系、财富或近况继续追问。 | [在线体验](https://ziweichat.vercel.app/) · [GitHub](https://github.com/ziweiknows/ziwei-chat) |
-| **ZATI** `当前产品` | 不想先填写出生信息，想通过行为选择探索人格原型。 | [GitHub](https://github.com/ziweiknows/zati) |
+| **ZATI** `当前产品` | 不想先填写出生信息，想通过行为选择探索人格原型。 | [在线体验](https://zati-kappa.vercel.app/) · [GitHub](https://github.com/ziweiknows/zati) |
 
 如果你想进一步从命盘理解自己的特质，可以探索 [Ziwei Chart](https://zwknows.vercel.app/)；如果你已经有命盘并想讨论一个现实问题，可以使用 [Ziwei Chat](https://ziweichat.vercel.app/)。它们是互补选择，不是完成 ZATI 的必要前置或后续步骤。
 
