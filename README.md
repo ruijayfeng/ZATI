@@ -1,4 +1,8 @@
-# 紫微知道 · 紫曜型格 | ZATI
+<p align="center">
+  <img src="./docs/images/product-mark.png" alt="ZATI 产品标志" width="132" />
+</p>
+
+<h1 align="center">紫微知道 · 紫曜型格 | ZATI</h1>
 
 ### Ziwei Archetype Type Indicator · 以选择看见自己
 
